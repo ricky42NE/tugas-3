@@ -71,6 +71,310 @@
 {
     font-weight: 100px;
 }
+.profile
+{
+    margin-top: 120px;
+    font-family: 'Bell MT';
+}
+.profile .textbox1 
+{
+    text-align: right;
+    margin-right: -20px;
+}
+
+.profile .textbox1 h3
+{
+    font-weight: 1000;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(137, 214, 238);
+    width: 50%;
+    margin-left: 140px;
+}
+
+.profile .textbox1 h4
+{
+    margin-bottom: 100px;
+}
+.profile .textbox1 h4, p
+{
+    font-weight: 600;
+}
+
+.profile .textbox2 
+{
+    text-align: left;
+    margin-left: -50px;
+}
+
+.profile .textbox2 h3
+{
+    font-weight: 1000;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(137, 214, 238);
+    width: 50%;
+}
+.profile .textbox2 h4
+{
+    margin-bottom: 100px;
+}
+.profile .textbox2 h4, p
+{
+    font-weight: 600;
+}
+
+.profile .img2
+{
+ margin-left: -30px;
+}
+.dot
+{
+    padding: 20px;
+}
+/* parent */
+.parent
+{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Bell MT';
+}
+.parent h3
+{
+    font-weight: 700;
+}
+.parent h3 span
+{
+    padding: 20px;
+}
+.parent .text
+{
+    margin-bottom: -50px;
+}
+.parent img
+{
+    width: 230px;
+    height: 200px;
+    margin: -30px;
+
+}
+/* parent-image */
+.parent-image
+{
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(245, 157, 226), rgb(171, 203, 245));
+    width: 1500px;
+    margin-left: -200px;
+    height: 250px;
+}
+.parent-image img
+{
+    height: 170px;
+    width: 240px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+.parent-image .image1
+{
+    margin-left: 58px;
+}
+.parent-image .image2
+{
+    margin-left: 0;
+}
+.parent-image .image3
+{
+    margin-left: 80px;
+}
+.parent-image .image4
+{
+    margin-left: 20px;
+}
+/* friends */
+.friend
+{
+    padding: 20px;
+}
+.friend h3
+{
+    text-align: center;
+    font-family: 'Bell MT';
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+.friend .dots
+{
+    margin-bottom: 10px;
+}
+.friend h2
+{
+    text-align: center;
+    font-family: 'Brillion';
+    font-size: 40px
+}
+.friend .text1, .text2
+{
+    margin-top: 50px;
+}
+.friend .text1 h4
+{
+    color: rgb(250, 112, 135);
+    font-family: 'Bell MT';
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 90px;
+}
+.friend .text2 h4
+{
+    text-align: right;
+    color: rgb(66, 66, 243);
+    font-family: 'Bell MT';
+    font-weight: 600;
+    padding: 5px;
+    margin-right: 90px;
+}
+.friend .icon1
+{
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.friend .icon2
+{
+    margin-left: -130px;
+    margin-top: -40px;
+}
+/* ceremony */
+
+.ceremony 
+{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 210, 253);
+    width: 1486px;
+    margin-left: -190px;
+    height: 350px;
+}
+.ceremony h2
+{
+    font-family: 'brillion';
+    font-weight: 600;
+    font-size: 50px;
+}
+.ceremony h4
+{
+    color: rgb(255, 22, 100);
+    font-family: 'Bell MT';
+    margin-top: -50px;
+    font-weight: 600;
+
+}
+.ceremony h4 span
+{
+    color: black;
+    font-weight: 600;
+
+}
+.ceremony img
+{
+    width: 500;
+    height: 200px;
+    margin-top: -80px;
+}
+.castle
+{
+    text-align: left;
+    font-family: 'Bell MT';
+}
+.castle h4
+{
+    font-size: 27px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 80px;
+}
+.castle img
+{
+    margin-left: -130px;
+    margin-top: -100px;
+}
+/* party */
+.party
+{
+    padding: 20px;
+    margin-top: 100px;
+}
+.party h2
+{
+    font-family: 'brillion';
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+.party .icon
+{
+    width: 500;
+    height: 200px;
+    margin-top: -80px;
+}
+.party h4
+{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(255, 22, 100);
+}
+.party .data h4
+{
+    color: black;
+    margin-top: -35px;
+}
+/* coming */
+.coming
+{
+    font-family: 'Bell MT';
+    padding: 20px;
+    background-color: rgb(185, 195, 252);
+    border: 7px solid rgb(203, 236, 255);
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    width: 1500px;
+    margin-left: -200px;
+}
+.coming h3, h4, h1
+{
+    font-weight: 600;
+}
+.coming h1
+{
+    border-bottom: 3px solid blue;
+    width: 30%;
+    padding: 5px;
+    margin-left: 500px;
+    margin-bottom: 25px;
+}
+.coming h4
+{
+    margin-bottom: 50px;
+}
+.coming a
+{
+    width: 500px;
+    height: 80px;
+    border-radius: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #6A6FFF;
+}
+footer
+{
+    background-color: #858585;
+    color: black;
+    padding: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
 /* desktop ver */
 @media (min-width: 992px)
  {
