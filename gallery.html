@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style3.css?v=1.0">
+    <title>Gallery</title>
+  </head>
+<body>
+<!--navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html">Home </a>
+            <a class="nav-item nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">R&S</a>
+            <a class="nav-item nav-link" href="our story.html">Our Story</a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+        </div>
+        </div>
+    </div>
+</nav>   
+<!-- akhir navbar -->
+   
+<!-- jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Gallery</h1>
+        <center><img src="img/deco2.png"></center>
+    </div>
+</div>
+<!-- akhir jumbotron -->
+<!-- gallery -->
+<div class="gallery">
+ 
+    <div class="column active">
+        <div class="content">
+            <h1>1</h1>
+        </div>
+        <div class="bg bg1"></div>
+    </div>
+    <div class="column">
+        <div class="content">
+            <h1>2</h1>
+        </div>
+        <div class="bg bg2"></div>
+    </div>
+    <div class="column">
+        <div class="content">
+            <h1>3</h1>
+        </div>
+        <div class="bg bg3"></div>
+    </div>
+    <div class="column">
+        <div class="content">
+            <h1>4</h1>
+        </div>
+        <div class="bg bg4"></div>
+    </div>
+    <div class="column">
+        <div class="content">
+            <h1>5</h1>
+        </div>
+        <div class="bg bg5"></div>
+    </div>
+</div>
+<!-- akhir gallery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+    $(document).on('mouseover', '.gallery .column', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+</script>
+</body>
+</html>
